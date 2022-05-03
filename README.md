@@ -21,16 +21,16 @@
 
 ## Overview of code section
 
- <!-- // index.html ==>  -->
+ // index.html ==> 
              NameOfSite section <div class"contentContainer *btn(s)
             // /generate task / buttons save link x10+
             //  data-switcher for nav bar tabs as well as for savedTasks&completedTasks
- <!-- // style.css =>  -->
+ // style.css => 
             <!-- The Skeleton &normalize/condensed are simple DOMlayout and and basic design -->
             // /font styles layout and such and could be swapped out for any new design structure
             // additional more interesting features could be supplemented in a new branch of this kode. if inclined *//
             // code function could equally be augented by hand unto or atop the existing structure
- <!-- // Java ==>> -->
+ // Java ==>>
               // Get api keys
               // Define variables .then define the fetch functions
               //fetch Google api; fetch bored api; response random activity from data '#generate"task btn;localStorage: bookmarks; JSON.stringify
