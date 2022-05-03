@@ -21,34 +21,37 @@
 
 ## Overview of code section
 
- // index.html ==> 
-             NameOfSite section <div class"contentContainer *btn(s)
+<!--  // index.html ==>  -->
+           //index.html
+            // NameOfSite section <div class"contentContainer *btn(s)
             // /generate task / buttons save link x10+
             //  data-switcher for nav bar tabs as well as for savedTasks&completedTasks
- // style.css => 
-            <!-- The Skeleton &normalize/condensed are simple DOMlayout and and basic design -->
-            // /font styles layout and such and could be swapped out for any new design structure
-            // additional more interesting features could be supplemented in a new branch of this kode. if inclined *//
-            // code function could equally be augented by hand unto or atop the existing structure
- // Java ==>>
-              // Get api keys
-              // Define variables .then define the fetch functions
-              //fetch Google api; fetch bored api; response random activity from data '#generate"task btn;localStorage: bookmarks; JSON.stringify
-              // deconstruct string response into an array .splt returned bannedTerms.includes       (e) === false of constant bannedTerms where "e" is an array of words (ie."the","and") for more dynamic reader flow and accurate search results that promotes rapid click events generating more pop-up Ad---venture (&revenue) with new friends and communities around the , uh..~Area~! ???                                $$newFeautures$$
+<!--  // style.css =>  -->
+            //style.css
+             // The Skeleton &normalize/condensed are simple DOMlayout and and basic design
+             // /font styles layout and such and could be swapped out for any new design structure
+             // additional more interesting features could be supplemented in a new branch of this kode. if inclined *//
+             // code function could equally be augented by hand unto or atop the existing structure
+<!--  // Java ==>> -->
+              // Java
+                // Get api keys
+                // Define variables .then define the fetch functions
+                //fetch Google api; fetch bored api; response random activity from data '#generate"task btn;localStorage: bookmarks; JSON.stringify
+                // deconstruct string response into an array .splt returned bannedTerms.includes       (e) === false of constant bannedTerms where "e" is an array of                     words (ie."the","and") for more dynamic reader flow and accurate search results that promotes rapid click events generating more pop-up Ad---venture                   (&revenue) with new friends and communities around the , uh..~Area~! ???  $$newFeautures$$
                   // lets put the words back together into a newStringArray.toString();
-              // display googles api retreived results data&displays in a contentContainer
-              // document.query save button linked tolocal storage, using JSON
-              // click even tab switcher to SwitchPage(page_id)
-              // switching over between selected pages in a new tab from the resulting links provided by google api based on associated results output from boredApi;
-              // Add loadTask fn() parsing bookmarked activity from local storage into an element containing/displaying loadlinks[i] loadtitles[i] loadActivity &bookmarkLink.innerHTML=<ahref+title
+                // display googles api retreived results data&displays in a contentContainer
+                // document.query save button linked tolocal storage, using JSON
+                // click even tab switcher to SwitchPage(page_id)
+                // switching over between selected pages in a new tab from the resulting links provided by google api based on associated results output from boredApi;
+                // Add loadTask fn() parsing bookmarked activity from local storage into an element containing/displaying loadlinks[i] loadtitles[i] loadActivity  /                                  /&bookmarkLink.innerHTML=<ahref+title
 
 ## Link APIs
 
-<!-- Boredapi for generated tasks -->
-Google return search results api:
-        ('http://www.boredapi.com/api/activity/')
+Boredapi for generated tasks
+
+   'http://www.boredapi.com/api/activity/'
         
 
-<!-- Google return search results api: -->
+Google return search results api:
         
-        ('https://www.googleapis.com/customsearch/v1?key=AIzaSyAKzE32n6Ad0lWIE3hOhOeYWyMbOoQ0PyE&q=')
+ 'https://www.googleapis.com/customsearch/v1?key=AIzaSyAKzE32n6Ad0lWIE3hOhOeYWyMbOoQ0PyE&q='
