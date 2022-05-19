@@ -60,6 +60,7 @@ window.onload = () => {
       localStorage.setItem("bookmarked", JSON.stringify(book));
       localStorage.setItem("bookmarkedTitle", JSON.stringify(markedTitle));
       console.log("works");
+      display: alert("Taskdded to your bookmarks");
     })
   })
 
