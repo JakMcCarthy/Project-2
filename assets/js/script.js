@@ -9,7 +9,7 @@ window.onload = () => {
   
   taskButton.addEventListener("click", function () {
 
-    testFetch = fetch('http://www.boredapi.com/api/activity/')
+    testFetch = fetch('https://www.boredapi.com/api/activity/')
       .then(function (response) {
         return response.json();
       })
