@@ -13,15 +13,28 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/condensed.css" />
     <link rel="stylesheet" href="./CSS/styleS.css" />
-    <!--Adding Animated Style sheet, delete this if works.-->
+    <!--Adding Animated Style sheet, delete only this comment if works.-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!--Adding Parallax Scrolling effect here (Delete this if works)-->
-    <style>
-        .parallax {
-            background-image: url(;
-        }
-    </style>
+    <!--Adding Parallax Scrolling effect here (Delete Only THIS LINE if works)-->
 </head>
+
+<style>
+    .parallax {
+      /* The image used */
+      background-image: url("/CSS/images/lower-manhattan-skyline.jpg");
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+<!--Container-->
+<div class="parallax"></div>
 
 <body>
 
@@ -35,10 +48,10 @@
                         <a data-switcher data-tab="1">Home</a>
                     </li>
                     <li class="tab">
-                        <a onclick="loadTask()" data-switcher data-tab="2">Bookmarked</a>
+                        <a onclick="loadTask()" data-switcher data-tab="2">Saved Events</a>
                     <li class="tab">
-                        <a data-switcher data-tab="3">My Points</a></li>
-                    <li class="tab"><a data-switcher data-tab="4">Store</a></li>
+                        <a data-switcher data-tab="3">My events</a></li>
+                    <li class="tab"><a data-switcher data-tab="4">Who we are</a></li>
                     <li class="tab"><a data-switcher data-tab="5">Contact Us</a></li>
                 </ul>
             </nav>
@@ -83,7 +96,7 @@
                 </div>
             </div>
             <div class="page" data-page="2">
-                <h1>Bookmarked</h1>
+                <h1>Saved events</h1>
                 <table class="u-full-width">
                     <thead>
                       <tr>
@@ -96,15 +109,26 @@
                   </table>
             </div>
             <div class="page" data-page="3">
-                <h1>Page Three</h1>
+                <h1>My events</h1>
             </div>
             <div class="page" data-page="4">
-                <h1>Page Four</h1>
+                <h1>Who we are</h1>
+            <p ALIGN="left">A small team of developers looking to make your event planning/finding easier.</p> 
+            
             </div>
             <div class="page" data-page="5">
-                <h1>Page Five</h1>
+                <h1>Contact us</h1>
+                <!--Adding some text in regards to contacting us, fake info. Can anyone fix the lines to make neater? 7/1/22-->
+                <p>Get in Touch:</p>
+                <li>Feel free to contact our support team with any questions you may have</li>
+                <li>Below will be some links to get in touch with us.</li>
+                <a href="http://mail.google.com/mail">Gmail</a>
+                <li>Our telephone line:</li>
+                <strong>555-555-555</strong>
+                <!--Background Image attempt, currently not working-->
+                <p style="background-image: url('/CSS/images/background-forcontact.jpg');"></p>
             </div>
-         <!--Inserting Sidebar here, on 6/27. Delete this if it works-->
+         <!--Inserting Sidebar here, on 6/27.-->
         <div id="my Sidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
             </a>
