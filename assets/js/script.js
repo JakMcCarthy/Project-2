@@ -1,3 +1,5 @@
+
+
 window.onload = () => {
   const tab_switchers = document.querySelectorAll('[data-switcher]');
   let testGoogle = "";
@@ -120,3 +122,4 @@ function closeNav() {
   document.getElementById("my Sidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
